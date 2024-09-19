@@ -290,9 +290,18 @@ dl dd span { display:block; width:69px; float:left;}
 }
 
 
+@media screen and (min-width: 430px) {
+    dl dd span {
+		display: block;
+		width: 69px;
+		float: left;
+		font-size: 12px;
+		display: contents;
+	}
 
-/* Imagem Home */
+	.color-1 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
 
-.imagem_home{
-	width: 1000px;
 }

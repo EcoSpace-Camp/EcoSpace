@@ -10,7 +10,7 @@ Os benefícios são muitos: além de melhorar a qualidade de vida profissional e
 
 ## Visite nosso [site](https://ecospace-camp.github.io/EcoSpace/)
 
-![eco-site](https://github.com/user-attachments/assets/8684e79e-958f-4ef8-bf21-e4410736d3cd)
+![eco_site](https://github.com/user-attachments/assets/57928c9a-ebe1-48e5-b43c-9cf1968db208)
 
 
 

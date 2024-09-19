@@ -1,0 +1,102 @@
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    padding: 0px;
+    
+}
+
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+    margin-left:-5px !important;
+    width:950px;
+}
+
+.mycarousel-2 .jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+    margin-left:0px !important;
+    width:auto;
+} 
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    margin:0 0px;
+    }
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 220px;
+    height: auto;
+    padding-bottom:5px
+    
+}
+.mycarousel-2 .jcarousel-skin-tango .jcarousel-item {
+    width: 300px;
+    height: auto;
+    padding:0px
+    
+}
+
+
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 10px;
+    padding:0 5px 5px
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+/***********tango-2****************/
+.jcarousel-skin-tango-2 .jcarousel-item {
+    width: 300px;
+    height: auto;
+    margin-right:0px
+}
+.mycarousel-3 .jcarousel-prev-horizontal, .mycarousel-3 .jcarousel-next-horizontal, .mycarousel-2 .jcarousel-prev-horizontal, .mycarousel-2 .jcarousel-next-horizontal {top:-55px !important}
+
+
+/**
+ *  Horizontal Buttons
+ */
+
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: -46px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background: transparent url(../images/next-horizontal.png) no-repeat 0 0;
+    }
+
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    background-position:0 bottom;
+}
+
+
+
+
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: -46px;
+    right: 27px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background: transparent url(../images/prev-horizontal.png) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    background-position:0 bottom;
+}
+
+
+
+
+
+.slide-3 .jcarousel-skin-tango .jcarousel-prev-horizontal {top:-25px}
+.slide-3 .jcarousel-skin-tango .jcarousel-next-horizontal {top:-25px}
+#mycarousel-5 li a{position:relative}
+#mycarousel-5 li a span {background:url(../images/play.png) no-repeat left top; position:absolute; top:40px; left:56px; display:block; width:50px; height:50px;}
+#mycarousel-5 li a:hover span {opacity:0.8}

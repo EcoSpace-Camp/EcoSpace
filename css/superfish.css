@@ -1,0 +1,28 @@
+.sf-menu {margin:0;}
+.sf-menu ul {position:absolute; display:none;}
+.sf-menu li {position:relative; float:left;}
+.sf-menu a { font-family: Arial, Helvetica, sans-serif; text-decoration:none}
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {z-index:105}
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul {top:-999px; display:none;}
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul {left:100%; top:0px;}
+
+ul.sf-menu>li {text-align:center;background:url(../images/nav.png) repeat left top; margin-right:1px}
+ul.sf-menu>li.last {width:185px; height:80px; margin-right:0}
+ul.sf-menu>li.last:hover {width:185px; height:80px; margin-right:0;background:url(../images/nav.png) repeat left top;}
+ul.sf-menu>li>a {font-size:18px; line-height:20px; color:#010101;display:inline-block; font-weight:400; font-family: 'Arimo', sans-serif;padding:30px 0; width:150px; text-align:center;}
+ul.sf-menu>li.current>a, ul.sf-menu>li.sfHover>a, ul.sf-menu>li>a:hover {color:#FFF;}
+ul.sf-menu>li.current, ul.sf-menu>li.sfHover, ul.sf-menu>li:hover {background:url(../images/nav-2.png) repeat left top;}
+.sf-menu>li>ul ul, .sf-menu>li>ul { width:150px;  top:81px; left:0;display:block}
+.sf-menu>li>ul>li a {color:#FFF; display:inline-block; line-height:20px;padding:15px 4px 15px 41px; font-family: 'Arimo', sans-serif; font-size:16px; width:105px}
+.sf-menu>li>ul>li {display:block; float:none; text-align:left; background:url(../images/nav-2.png) repeat left top; margin-bottom:1px;width:150px;}
+.sf-menu>li>ul ul {background:#d4d4d4; left:150px !important;}
+
+
+
+ul.sf-menu>li.current li li, ul.sf-menu>li li.sfHover li { float:none; display:block; float:none;padding:11px 0; text-align:left;}
+ul.sf-menu>li.current li li a, ul.sf-menu>li li.sfHover li a{color:#ed008c;display:inline-block;}
+ul.sf-menu>li li.sfHover, .sf-menu>li>ul>li:hover, ul.sf-menu>li>ul>li.sfHover:hover,ul.sf-menu>li li.sfHover li:hover {background:url(../images/nav.png) repeat left top;}
+ul.sf-menu>li li.sfHover a, .sf-menu>li>ul>li a:hover, ul.sf-menu>li>ul>li.sfHover a:hover,ul.sf-menu>li li.sfHover li a:hover {color:#010101}
+ul.sf-menu>li li.sfHover li a {text-decoration:none}
+
+ul li li .sf-sub-indicator {display:none}
